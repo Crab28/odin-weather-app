@@ -13,12 +13,25 @@
             </form>
             <div class="buttons-container">
                 <button class="btn" id="btn-deg">Display F</button>
-                <button class="btn" id="btn-wind">Display mph</button>
+                <button class="btn" id="btn-spd">Display mph</button>
             </div>
         </div>
         <div class="content-container">
             <div class="content">
-                Content
+                <div class="info-box first-info-box">
+                    <div class="icon">
+                        <img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="weather icon" id="weather-icon">
+                    </div>
+                    <div class="info">
+                        <h2>Sunny</h2>
+                        <h3>Pretoria</h3>
+                    </div>
+                </div>
+                <div class="info-box second-info-box">
+                    <h2><span>Temp: </span><span id="temp-number">20</span><span id="temp-type">°C</span></h2>
+                    <h2><span>Humidity: </span><span id="humid-number">20</span><span>%</span></h2>
+                    <h2><span>Wind: </span><span id="wind-number">50</span><span id="speed-type"> kph</span></h2>
+                </div>
             </div>
             <div class="error-msg">
                 Error

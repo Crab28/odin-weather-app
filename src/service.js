@@ -21,6 +21,7 @@ const fetchWeatherData = async function fetchWeatherDataFromAPI(location) {
   return weatherData;
 };
 
+// Function coordinates all the functions.
 const getWeather = async function getWeatherData(location) {
   const weatherData = await fetchWeatherData(location);
   const sortedData = sortData(weatherData);
