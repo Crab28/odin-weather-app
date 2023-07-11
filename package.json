@@ -1,0 +1,31 @@
+{
+  "name": "odin-weather-app",
+  "version": "1.0.0",
+  "description": "Odin project: A simple weather app to practice using an API, promises, and async/await.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crab28/odin-weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crab28/odin-weather-app/issues"
+  },
+  "homepage": "https://github.com/Crab28/odin-weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
