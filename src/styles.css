@@ -171,15 +171,15 @@ h3 {
         width: 200px;
         background-color: transparent;
     }
-    
-    @media (max-width: 390px) {
-        .content {
-            flex-direction: column;
-        }
+}
 
-        .info-box {
-            background-color: #00000091;
-            width: 220px;
-        }
+@media (max-width: 390px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .info-box {
+        background-color: #00000091;
+        width: 220px;
     }
 }
