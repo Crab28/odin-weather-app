@@ -6,9 +6,25 @@
     <title>Weather App</title>
 </head>
 <body>
-    <form>
-        <input type="text" name="location-search" id="location-search" placeholder="Search City...">
-    </form>
+    <div class="container">
+        <div class="header">
+            <form>
+                <input type="text" name="location-search" id="location-search" placeholder="Search City...">
+            </form>
+            <div class="buttons-container">
+                <button class="btn" id="btn-deg">Display F</button>
+                <button class="btn" id="btn-wind">Display mph</button>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="content">
+                Content
+            </div>
+            <div class="error-msg">
+                Error
+            </div>
+        </div>
+    </div>
 
     <script src="./main.js"></script>
 </body>
